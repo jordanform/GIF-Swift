@@ -15,6 +15,7 @@
 		68B10EE41D5DA7A300212266 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B10EE31D5DA7A300212266 /* iOSDevCenters+GIF.swift */; };
 		68B10EE61D5DAA1B00212266 /* funny.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68B10EE51D5DAA1B00212266 /* funny.gif */; };
 		68B10EE81D5DABFD00212266 /* play.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68B10EE71D5DABFD00212266 /* play.gif */; };
+		D05841231E41B7F90010F88B /* PLACE-IN-VIEWER.gif in Resources */ = {isa = PBXBuildFile; fileRef = D05841221E41B7F90010F88B /* PLACE-IN-VIEWER.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		68B10EE31D5DA7A300212266 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
 		68B10EE51D5DAA1B00212266 /* funny.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = funny.gif; sourceTree = "<group>"; };
 		68B10EE71D5DABFD00212266 /* play.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = play.gif; sourceTree = "<group>"; };
+		D05841221E41B7F90010F88B /* PLACE-IN-VIEWER.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "PLACE-IN-VIEWER.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				68B10EE31D5DA7A300212266 /* iOSDevCenters+GIF.swift */,
 				68B10EE51D5DAA1B00212266 /* funny.gif */,
 				68B10EE71D5DABFD00212266 /* play.gif */,
+				D05841221E41B7F90010F88B /* PLACE-IN-VIEWER.gif */,
 			);
 			path = "GIF-Swift";
 			sourceTree = "<group>";
@@ -100,11 +103,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = iOSDevCenters;
 				TargetAttributes = {
 					68B10ECD1D5DA6E700212266 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -132,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68B10EDC1D5DA6E700212266 /* LaunchScreen.storyboard in Resources */,
+				D05841231E41B7F90010F88B /* PLACE-IN-VIEWER.gif in Resources */,
 				68B10EE61D5DAA1B00212266 /* funny.gif in Resources */,
 				68B10EE81D5DABFD00212266 /* play.gif in Resources */,
 				68B10ED91D5DA6E700212266 /* Assets.xcassets in Resources */,
@@ -187,8 +192,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -231,8 +238,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -251,6 +260,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -263,6 +273,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSDevCenters.GIF-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -274,6 +285,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iOSDevCenters.GIF-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
